@@ -780,6 +780,11 @@ footer {
   fill: #000000;
 }
 
+.btn:hover,
+.btn:focus {
+  fill: var(--accent-color);
+}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
